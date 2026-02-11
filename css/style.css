@@ -1,0 +1,76 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: #ffffff;
+    color: #111;
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px 20px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.page-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #bbb;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #00AEEF;
+    margin-bottom: 0.4rem;
+}
+
+.subtitle {
+    font-size: 0.75rem;
+    color: #bbb;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.card {
+    border: 1px solid #eee;
+    border-left: 3px solid #00AEEF;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #bbb;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #333;
+}
+
+.clue-box {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    color: #00AEEF;
+    border: 1px dashed #e0e0e0;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.instruction {
+    font-size: 0.75rem;
+    color: #bbb;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
