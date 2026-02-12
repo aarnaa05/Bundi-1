@@ -135,9 +135,6 @@ h1 {
     display: block;
 }
 
-.img-row img:last-child {
-    object-position: left center;
-}
 
 /* ─── Instruction ───────────────────────────────────── */
 .instruction {
