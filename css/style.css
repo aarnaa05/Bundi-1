@@ -115,6 +115,14 @@ h1 {
     }
 }
 
+/* ─── Section image ─────────────────────────────────── */
+.section-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1.2rem;
+    display: block;
+}
+
 /* ─── Instruction ───────────────────────────────────── */
 .instruction {
     font-size: 0.72rem;
