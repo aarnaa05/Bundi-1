@@ -120,14 +120,21 @@ h1 {
     display: flex;
     gap: 8px;
     margin-top: 1.2rem;
+    height: 200px;
 }
 
 .img-row img {
     flex: 1 1 0;
     min-width: 0;
     width: 0;
+    height: 100%;
     border-radius: 8px;
     object-fit: cover;
+    object-position: center;
+}
+
+.img-row img:last-child {
+    object-position: left center;
 }
 
 /* ─── Instruction ───────────────────────────────────── */
