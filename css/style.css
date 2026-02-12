@@ -118,19 +118,21 @@ h1 {
 /* ─── Section images ────────────────────────────────── */
 .img-row {
     display: flex;
+    flex-direction: row;
     gap: 8px;
     margin-top: 1.2rem;
-    height: 200px;
+    overflow: hidden;
 }
 
 .img-row img {
     flex: 1 1 0;
     min-width: 0;
-    width: 0;
-    height: 100%;
+    max-width: calc(50% - 4px);
+    height: 200px;
     border-radius: 8px;
     object-fit: cover;
     object-position: center;
+    display: block;
 }
 
 .img-row img:last-child {
