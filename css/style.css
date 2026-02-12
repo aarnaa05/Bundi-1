@@ -115,12 +115,17 @@ h1 {
     }
 }
 
-/* ─── Section image ─────────────────────────────────── */
-.section-img {
-    width: 100%;
-    border-radius: 8px;
+/* ─── Section images ────────────────────────────────── */
+.img-row {
+    display: flex;
+    gap: 8px;
     margin-top: 1.2rem;
-    display: block;
+}
+
+.img-row img {
+    width: 50%;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 /* ─── Instruction ───────────────────────────────────── */
